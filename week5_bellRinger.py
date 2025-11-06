@@ -103,7 +103,12 @@ print(sentence)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+sentence = "Life is what happens whenn you are busy making other plans"
+replaced_sentece = print(sentence.replace("busy", "distracted"). replace("plans", "mistakes"))
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+repeated_word = print("Iteration" * 7)
+word = "moonlight"
+quote =  "With freedom, books, flowers, and the moon, who could not be happy?"
+word_in_quote = print(word in quote)
