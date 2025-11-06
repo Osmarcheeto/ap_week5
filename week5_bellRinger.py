@@ -54,11 +54,48 @@ print(reversed_words)
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
 # b. Now, split the string at every occurrence of the letter 'a'.
+text = "MAY THE FORCE BE WITH YOU"
+print(text.lower[::-1])
+# Problem Set 3: String Methods
+# Upper & Lower:
+# Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
+
+# String Joining and Splitting:
+# Given the list motto = ["Make", "haste", "slowly."],
+# a. Convert the list into a single string.
+# b. Now, split the string at every occurrence of the letter 'a'.
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
+# Problem Set 3: String Methods
+
+# Upper & Lower:
+text = "MAY THE FORCE BE WITH YOU."
+print(text.lower())
+
+# String Joining and Splitting:
+motto = ["Make", "haste", "slowly."]
+
+# a. Convert the list into a single string
+joined = ' '.join(motto)
+print(joined)
+
+# b. Split the string at every 'a'
+print(joined.split('a'))
+
+# Replacing Words:
+sentence = "Life is what happens when you are busy making other plans."
+
+# a. Replace "busy" with "distracted"
+sentence = sentence.replace("busy", "distracted")
+
+# b. Replace "plans" with "mistakes"
+sentence = sentence.replace("plans", "mistakes")
+joined_motto = '/'.join(motto)
+
+print(sentence)
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
@@ -70,8 +107,3 @@ print(reversed_words)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
-git add .
-@Osmarcheeto ➜ /workspaces/ap_week5 (main) $ git commit -m "John F Kennedy"
-[main d59f4b9] John F Kennedy
- 1 file changed, 7 insertions(+), 1 deletion(-)
-@Osmarcheeto ➜ /workspaces/ap_week5 (main) $ git push origin
