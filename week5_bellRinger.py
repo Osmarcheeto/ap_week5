@@ -35,14 +35,21 @@ john_f_kennedy = print(famous_quote.find("John F. Kennedy"))
 extracted_name = print(famous_quote[83:])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+python_is_fun = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
+python_is_fun = print(python_is_fun.find("subjective"))
 # b. Extract every third word.
+# third_letter = print(python_is_fun[::3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+python_is_fun = print(python_is_fun[::-1])
 
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+words = info.split()
+print(words)
+reversed_words = ' '.join(reversed(words))
+print(reversed_words)
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
@@ -63,3 +70,8 @@ extracted_name = print(famous_quote[83:])
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+git add .
+@Osmarcheeto ➜ /workspaces/ap_week5 (main) $ git commit -m "John F Kennedy"
+[main d59f4b9] John F Kennedy
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+@Osmarcheeto ➜ /workspaces/ap_week5 (main) $ git push origin
