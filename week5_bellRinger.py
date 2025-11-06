@@ -112,3 +112,7 @@ repeated_word = print("Iteration" * 7)
 word = "moonlight"
 quote =  "With freedom, books, flowers, and the moon, who could not be happy?"
 word_in_quote = print(word in quote)
+
+phrase = "Supercalifragilisticexpialidocious"
+length_of_phrase = print(len(phrase))
+count_of_i = print(phrase.count('i'))
